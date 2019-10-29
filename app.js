@@ -6,7 +6,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("小芋头你好！");
+  res.send("小芋头你好buhao！");
 });
 
 app.listen(3000, () => {
