@@ -9,6 +9,6 @@ app.get("/", (req, res) => {
   res.send("小芋头你好buhao！");
 });
 
-app.listen(3000, () => {
+app.listen(80, () => {
   console.log("server running on port 3000");
 });
